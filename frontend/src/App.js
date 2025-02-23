@@ -23,7 +23,7 @@ function App() {
 
      if(localStorage.getItem('token')){
          const take=localStorage.getItem('token')
-     const resp= await axios.post("http://localhost:4000/api/user/profile",{},{headers:{take}})
+     const resp= await axios.post("https://food-delivery-backend1-riv6.onrender.com/api/user/profile",{},{headers:{take}})
 
      console.log(resp)
 

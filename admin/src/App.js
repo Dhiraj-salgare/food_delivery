@@ -9,7 +9,7 @@ import Orders from './pages/Orders/Orders';
 
 function App() {
 
-  const url="http://localhost:4000"
+  const url="https://food-delivery-backend1-riv6.onrender.com"
   return (
     <div className="App">
 

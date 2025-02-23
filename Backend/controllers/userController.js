@@ -3,7 +3,7 @@ const userModel=require('../models/userModel')
 const jwt=require('jsonwebtoken')
 
 //import bcrypt 
-const bcrypt=require('bcrypt')
+const bcrypt=require('bcryptjs')
 
 //import validator
 const validator =require('validator')
